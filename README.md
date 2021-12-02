@@ -6,19 +6,13 @@ _0. Healthcheck_
     curl --location --request GET 'localhost:3000/healthcheck'
 ```
 
-_1. Show all users_
-​
-```bash
-    curl --location --request GET 'localhost:3000/v1/user'
-```
-
-_2. Search by id_
+_1. Search by id_
 ​
 ```bash
     curl --location --request GET 'localhost:3000/v1/user/<your id>'
 ```
 
-_3. Search by email_
+_2. Search by email_
 ​
 ```bash
     curl --location --request GET 'localhost:3000/v1/user' \
@@ -28,7 +22,7 @@ _3. Search by email_
     }'
 ```
 ​
-_4. Create_
+_3. Create_
 ​
 ```bash
     curl --location --request POST 'localhost:3000/v1/user' \
@@ -39,7 +33,7 @@ _4. Create_
     }'
 ```
 ​
-_5. Update_
+_4. Update_
 ​
 ```bash
     curl --location --request PATCH 'localhost:3000/v1/user/<user id>' \
@@ -49,13 +43,13 @@ _5. Update_
     }'
 ```
 ​
-_6. Remove by id_
+_5. Remove by id_
 ​
 ```bash
     curl --location --request DELETE 'localhost:3000/v1/user/<user id>'
 ```
 
-_7. Remove by email_
+_6. Remove by email_
 ​
 ```bash
     curl --location --request DELETE 'localhost:3000/v1/user' \
