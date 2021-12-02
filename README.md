@@ -55,7 +55,7 @@ _6. Remove by id_
     curl --location --request DELETE 'localhost:3000/v1/user/<user id>'
 ```
 
-_6. Remove by email_
+_7. Remove by email_
 ​
 ```bash
     curl --location --request DELETE 'localhost:3000/v1/user' \
